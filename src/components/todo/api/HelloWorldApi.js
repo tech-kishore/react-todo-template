@@ -1,7 +1,8 @@
 import {apiClient} from './ApiClient'
-export const retireveHelloWorldBean 
-=  apiClient.get('/hello-world-json');
+
+export const retireveHelloWorldBean1
+=  () => apiClient.get('/hello-world-json-test');
 
 export const retireveHelloWorldPathVarible 
-=  (username) => apiClient.get(`http://localhost:8080/hello-world/${username}`);
+=  (username) => apiClient.get(`/hello-world/${username}`);
 

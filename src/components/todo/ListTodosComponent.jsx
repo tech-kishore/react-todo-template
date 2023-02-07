@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { deleteTodoApi, retrieveAllTodosForUsernameApi, updateTodoApi } from "./api/TodoApi";
+import { deleteTodoApi, retrieveAllTodosForUsernameApi } from "./api/TodoApi";
 import { useAuth } from "./security/AuthContext";
 
 function ListTodosComponent() {
